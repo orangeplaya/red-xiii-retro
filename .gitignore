@@ -1,0 +1,21 @@
+# local settings
+.env
+.claude/
+
+# scratch output
+stills/
+
+# Third-party media: not ours to redistribute. Run ./fetch-audio.sh to recreate the soundtrack.
+*.mp3
+*.mp4
+*.webm
+*.m4a
+*.wav
+
+# Reference images used during the session (third-party art)
+red-xiii-portrait.png
+red-xiii-end-scene.jpg
+pixel-img-example.png
+
+# macOS
+.DS_Store
